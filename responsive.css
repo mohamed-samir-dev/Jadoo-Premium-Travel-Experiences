@@ -1,0 +1,1922 @@
+@media screen and (max-width: 1200px) {
+    .hero-section {
+        padding: 40px 30px;
+    }
+}
+
+/* Medium Devices (Tablets) */
+@media screen and (max-width: 992px) {
+
+    .hero-section {
+        padding: 20px 60px;
+    }
+
+
+    .hero-content {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .hero-text {
+        margin-top: 0;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .description {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cta-container {
+        justify-content: center;
+    }
+
+    .hero-image {
+        order: -1;
+    }
+
+    .hero-image img {
+        margin-top: 0;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    /* Media Queries for Services Section */
+    .services-section {
+        padding: 60px 0;
+    }
+
+    .services-container {
+        flex-wrap: wrap;
+    }
+
+    .main-title {
+        font-size: 36px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .service {
+        padding: 25px;
+    }
+
+    .service-img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .service-title {
+        font-size: 20px;
+    }
+
+    .top-selling-section {
+        padding: 50px 15px;
+    }
+
+    .section-header {
+        margin-bottom: 40px;
+    }
+
+    .section-subtitle {
+        font-size: 16px;
+    }
+
+    .section-title {
+        font-size: 36px;
+    }
+
+    .destination-image {
+        height: 280px;
+    }
+
+    .beauty-section {
+        padding: 70px 0;
+    }
+
+    .beauty-header {
+        margin-bottom: 40px;
+    }
+
+    .section-subtitle {
+        font-size: 16px;
+    }
+
+    .section-title {
+        font-size: 34px;
+    }
+
+    /* Change gallery to 3 columns */
+    .beauty-gallery {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 15px;
+        margin-bottom: 60px;
+    }
+
+    .gallery-item.large {
+        grid-column: span 2;
+        grid-row: span 1;
+        height: 250px;
+    }
+
+    .gallery-item {
+        height: 200px;
+    }
+
+    .gallery-overlay h3 {
+        font-size: 20px;
+    }
+
+    .gallery-overlay p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .beauty-cta {
+        padding: 40px;
+    }
+
+    .cta-content {
+        padding-right: 20px;
+    }
+
+    .cta-decoration {
+        height: 220px;
+    }
+
+    .booking-process-section {
+        padding: 80px 0;
+    }
+
+    .booking-container {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .booking-content {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .booking-header .section-title {
+        font-size: 34px;
+    }
+
+    .booking-showcase {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .trip-card {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .testimonial-bubble {
+        position: absolute;
+        bottom: -30px;
+        right: 50px;
+        width: 300px;
+    }
+
+    .testimonial-section {
+        padding: 70px 0;
+    }
+
+    .section-subtitle {
+        font-size: 16px;
+    }
+
+    .section-title {
+        font-size: 34px;
+        margin-bottom: 25px;
+    }
+
+    .testimonial-card {
+        max-width: 600px;
+        padding: 30px;
+    }
+
+    .testimonial-text {
+        font-size: 15px;
+        line-height: 1.7;
+        margin-bottom: 25px;
+    }
+
+    .author-name {
+        font-size: 17px;
+    }
+
+    .testimonial-image {
+        width: 120px;
+        height: 120px;
+    }
+
+    .testimonial-cards {
+        height: 380px;
+    }
+
+    .partners-section {
+        padding: 60px 0;
+    }
+
+    .section-subtitle {
+        font-size: 16px;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+
+    .partners-header {
+        margin-bottom: 40px;
+    }
+
+    .partner-logo {
+        width: 140px;
+        height: 65px;
+        margin: 0 20px;
+    }
+
+    .partner-logo img {
+        max-height: 50px;
+    }
+
+    .partners-cta p {
+        font-size: 17px;
+    }
+
+    .partner-btn {
+        padding: 10px 25px;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-60%);
+        }
+    }
+
+    .natural-beauty-section {
+        padding: 70px 0;
+    }
+
+    .beauty-header .section-subtitle {
+        font-size: 16px;
+    }
+
+    .beauty-header .section-title {
+        font-size: 34px;
+    }
+
+    .beauty-header .section-description {
+        font-size: 15px;
+    }
+
+    .beauty-facts {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .fact-item {
+        flex: 0 0 calc(50% - 20px);
+        margin: 10px;
+        min-width: 0;
+    }
+
+    .fact-icon {
+        width: 55px;
+        height: 55px;
+    }
+
+    .fact-content h4 {
+        font-size: 24px;
+    }
+
+    .decoration-circle.circle-1 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .decoration-circle.circle-2 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .decoration-dots {
+        width: 120px;
+        height: 120px;
+    }
+
+    .subscribe-section {
+        padding: 60px 0;
+    }
+
+    .subscribe-content {
+        padding: 45px 30px;
+        border-top-left-radius: 60px;
+    }
+
+    .subscribe-header {
+        margin-bottom: 25px;
+    }
+
+    .subscribe-header .section-title {
+        font-size: 28px;
+        margin-bottom: 12px;
+    }
+
+    .subscribe-header .section-description {
+        font-size: 15px;
+    }
+
+    .subscribe-form input {
+        padding: 16px 16px 16px 42px;
+        font-size: 15px;
+    }
+
+    .subscribe-btn {
+        padding: 16px 25px;
+        font-size: 15px;
+    }
+
+    .telegram-decoration {
+        top: 5px;
+        right: 5px;
+    }
+
+    .telegram-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .circle-decoration {
+        width: 50px;
+        height: 50px;
+        left: 30px;
+    }
+
+    .subscribe-content::before {
+        width: 30px;
+        height: 30px;
+        top: -12px;
+    }
+
+    /* Mobile menu styles */
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 60px;
+        right: -100%;
+        width: 80%;
+        max-width: 300px;
+        height: 70vh;
+        background-color: white;
+        box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+        padding: 80px 30px 30px;
+        z-index: 1000;
+        border-radius: 20px;
+        overflow-y: auto;
+        transition: right 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+    }
+
+    .nav-links.active {
+        right: 0;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+    }
+
+    .nav-links ul li {
+        margin: 15px 0;
+    }
+
+    /* Overlay when menu is open */
+    .menu-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+    }
+
+    .menu-overlay.active {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+/* Small Devices (Landscape Phones) */
+@media screen and (max-width: 768px) {
+
+    .hero-section {
+        padding: 15px 40px;
+    }
+
+
+    .nav-logo h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .nav-links {
+        width: 100%;
+    }
+
+    .nav-links ul {
+        justify-content: center;
+        gap: 15px;
+        padding-left: 0;
+    }
+
+    .nav-links a {
+        font-size: 15px;
+    }
+
+    .main-title {
+        font-size: 38px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    .primary-btn {
+        padding: 14px 28px;
+        font-size: 16px;
+    }
+
+    .play-icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .hero-image img {
+        max-width: 100%;
+    }
+
+    /* Media Queries for Services Section */
+    .services-section {
+        padding: 50px 0;
+    }
+
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service {
+        width: 100%;
+        max-width: 500px;
+        margin: 15px 0;
+    }
+
+    .services-headline {
+        margin-bottom: 40px;
+    }
+
+    .main-title {
+        font-size: 32px;
+    }
+
+    .top-selling-section {
+        padding: 40px 15px;
+    }
+
+    .section-header {
+        margin-bottom: 30px;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+
+    .destinations-container {
+        gap: 20px;
+    }
+
+    .destination-card {
+        width: calc(50% - 10px);
+        min-width: 250px;
+    }
+
+    .destination-details {
+        padding: 15px;
+    }
+
+    .destination-title,
+    .destination-price {
+        font-size: 16px;
+    }
+
+    .destination-trip-info {
+        font-size: 14px;
+    }
+
+    .destination-trip-info img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .beauty-section {
+        padding: 60px 0;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    /* Change gallery to 2 columns */
+    .beauty-gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        margin-bottom: 50px;
+    }
+
+    .gallery-item.large {
+        grid-column: span 2;
+        height: 220px;
+    }
+
+    .gallery-item {
+        height: 180px;
+    }
+
+    .gallery-overlay {
+        padding: 15px;
+    }
+
+    .gallery-overlay h3 {
+        font-size: 18px;
+    }
+
+    .explore-btn {
+        padding: 6px 15px;
+        font-size: 12px;
+    }
+
+    /* Stack CTA content and decoration */
+    .beauty-cta {
+        flex-direction: column;
+        background: linear-gradient(110deg, #eee3e3 60%, #FFF1DA 60%);
+        padding: 30px;
+    }
+
+    .cta-content {
+        flex: 0 0 100%;
+        padding-right: 0;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .cta-content h2 {
+        font-size: 28px;
+    }
+
+    .cta-decoration {
+        flex: 0 0 200px;
+        width: 100%;
+        height: 200px;
+    }
+
+    .floating-element.plane {
+        top: 20px;
+        left: 15%;
+    }
+
+    .floating-element.compass {
+        bottom: 30px;
+        left: 30%;
+    }
+
+    .floating-element.camera {
+        top: 100px;
+        right: 20%;
+    }
+
+    .testimonial-section {
+        padding: 60px 0;
+    }
+
+    .testimonial-header {
+        margin-bottom: 40px;
+    }
+
+    .section-title {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .testimonial-card {
+        max-width: 500px;
+        padding: 25px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .testimonial-content {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .testimonial-text {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .testimonial-image {
+        width: 100px;
+        height: 100px;
+        border-width: 4px;
+    }
+
+    .quote-icon {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .testimonial-cards {
+        height: 450px;
+    }
+
+    .testimonial-card.next {
+        transform: translateX(20px) scale(0.9);
+    }
+
+    .partners-section {
+        padding: 50px 0;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .partners-header {
+        margin-bottom: 30px;
+    }
+
+    .partners-slider {
+        padding: 20px 0;
+        margin-bottom: 30px;
+    }
+
+    .partner-logo {
+        width: 120px;
+        height: 60px;
+        margin: 0 15px;
+    }
+
+    .partner-logo img {
+        max-height: 45px;
+    }
+
+    .partners-cta p {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .partner-btn {
+        padding: 10px 22px;
+        font-size: 15px;
+    }
+
+    .partners-slider::before,
+    .partners-slider::after {
+        width: 60px;
+    }
+
+    .booking-process-section {
+        padding: 60px 0;
+    }
+
+    .booking-header {
+        margin-bottom: 30px;
+    }
+
+    .booking-header .section-subtitle {
+        font-size: 16px;
+    }
+
+    .booking-header .section-title {
+        font-size: 30px;
+    }
+
+    .booking-steps {
+        gap: 25px;
+    }
+
+    .step-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .step-icon img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .step-title {
+        font-size: 18px;
+    }
+
+    .step-description {
+        font-size: 15px;
+    }
+
+    .booking-cta {
+        margin-top: 30px;
+    }
+
+    .trip-card {
+        width: 360px;
+    }
+
+    .testimonial-bubble {
+        width: 260px;
+        right: 30px;
+    }
+
+    .booking-showcase {
+        display: none;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-70%);
+        }
+    }
+
+    .natural-beauty-section {
+        padding: 60px 0;
+    }
+
+    .beauty-header {
+        margin-bottom: 40px;
+    }
+
+    .beauty-header .section-title {
+        font-size: 30px;
+    }
+
+    .beauty-header .section-description {
+        font-size: 14px;
+    }
+
+    .beauty-header .section-subtitle::after {
+        width: 35px;
+        height: 2px;
+    }
+
+    .fact-item {
+        padding: 15px;
+    }
+
+    .fact-icon {
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+    }
+
+    .fact-content h4 {
+        font-size: 22px;
+    }
+
+    .fact-content p {
+        font-size: 13px;
+    }
+
+    .decoration-circle.circle-1 {
+        width: 200px;
+        height: 200px;
+        top: -80px;
+        left: -100px;
+    }
+
+    .decoration-circle.circle-2 {
+        width: 120px;
+        height: 120px;
+        bottom: -40px;
+        right: -60px;
+    }
+
+    .decoration-dots {
+        width: 100px;
+        height: 100px;
+        background-size: 12px 12px;
+    }
+
+    .subscribe-section {
+        padding: 50px 0;
+    }
+
+    .subscribe-content {
+        padding: 40px 25px;
+        border-top-left-radius: 50px;
+    }
+
+    .subscribe-header .section-title {
+        font-size: 26px;
+    }
+
+    .subscribe-header .section-description {
+        font-size: 14px;
+    }
+
+    .input-group {
+        min-width: 250px;
+    }
+
+    .subscribe-form input {
+        padding: 15px 15px 15px 40px;
+        font-size: 14px;
+    }
+
+    .input-icon {
+        left: 12px;
+    }
+
+    .input-icon svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .subscribe-btn {
+        padding: 15px 22px;
+        font-size: 14px;
+    }
+
+    .telegram-icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .circle-decoration {
+        width: 45px;
+        height: 45px;
+        left: 25px;
+        bottom: 5px;
+    }
+
+    .subscribe-content::before {
+        width: 25px;
+        height: 25px;
+        top: -10px;
+        left: 12%;
+    }
+
+    .natural-beauty-section {
+        padding: 60px 0;
+    }
+
+    .natural-beauty-section .section-title {
+        font-size: 32px;
+    }
+
+    .beauty-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 250px);
+    }
+
+    .beauty-facts {
+        justify-content: center;
+    }
+
+    .fact-item {
+        min-width: 45%;
+    }
+
+    .beauty-action {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .action-content {
+        margin-bottom: 30px;
+        padding-right: 0;
+    }
+
+    .action-buttons {
+        justify-content: center;
+    }
+}
+
+/* Extra Small Devices (Portrait Phones) */
+@media screen and (max-width: 576px) {
+
+    .hero-section {
+        padding: 15px 20px;
+    }
+
+    .nav-links ul {
+        display: none;
+    }
+
+    .nav-links li {
+        margin-bottom: 5px;
+    }
+
+    .language-selector {
+        margin-top: 10px;
+    }
+
+    .main-title {
+        font-size: 32px;
+    }
+
+    .description {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .cta-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .primary-btn {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    /* Media Queries for Services Section */
+
+
+    .services-section {
+        padding: 40px 0;
+    }
+
+    .main-title {
+        font-size: 28px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .service {
+        padding: 20px;
+    }
+
+    .service-img {
+        width: 80px;
+        height: 80px;
+        padding: 15px;
+    }
+
+    .service-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .service-description {
+        font-size: 14px;
+    }
+
+    .top-selling-section {
+        padding: 30px 10px;
+    }
+
+    .section-subtitle {
+        font-size: 14px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .destination-card {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .destination-image {
+        height: 240px;
+    }
+
+    .destination-badge {
+        top: 15px;
+        right: 15px;
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .destination-info {
+        margin-bottom: 10px;
+    }
+
+    .beauty-section {
+        padding: 50px 0;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .beauty-header {
+        margin-bottom: 30px;
+    }
+
+    .section-subtitle {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .section-title {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    .section-description {
+        font-size: 14px;
+    }
+
+    /* Single column gallery for mobile */
+    .beauty-gallery {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-bottom: 40px;
+    }
+
+    .gallery-item,
+    .gallery-item.large {
+        grid-column: span 1;
+        height: 200px;
+    }
+
+    .gallery-overlay {
+        opacity: 1;
+        transform: translateY(0);
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2), transparent);
+    }
+
+    .beauty-cta {
+        padding: 25px;
+        border-radius: 15px;
+        background: linear-gradient(110deg, #eee3e3 60%, #FFF1DA 60%);
+
+    }
+
+    .cta-content h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .cta-content p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .cta-decoration {
+        height: 180px;
+    }
+
+    .floating-element.plane {
+        width: 60px;
+        height: 60px;
+    }
+
+    .floating-element.compass {
+        width: 50px;
+        height: 50px;
+    }
+
+    .floating-element.camera {
+        width: 45px;
+        height: 45px;
+    }
+
+    .booking-process-section {
+        padding: 50px 0;
+    }
+
+    .booking-container {
+        padding: 0 15px;
+        gap: 40px;
+    }
+
+    .booking-header .section-title {
+        font-size: 26px;
+    }
+
+    .booking-step {
+        gap: 15px;
+    }
+
+    .step-icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .step-icon img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .step-title {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+
+    .step-description {
+        font-size: 14px;
+    }
+
+    .primary-btn {
+        padding: 12px 25px;
+        font-size: 15px;
+    }
+
+    .trip-card {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .trip-image {
+        height: 140px;
+    }
+
+    .trip-details {
+        padding: 15px;
+    }
+
+    .trip-details h3 {
+        font-size: 16px;
+    }
+
+    .trip-date {
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+
+    .feature {
+        font-size: 13px;
+    }
+
+    .booking-showcase {
+        display: none;
+    }
+
+    .testimonial-bubble {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        max-width: 320px;
+        margin: 20px auto 0;
+    }
+
+    .testimonial-section {
+        padding: 50px 0;
+    }
+
+    .testimonial-container {
+        padding: 0 15px;
+    }
+
+    .section-subtitle {
+        font-size: 14px;
+    }
+
+    .section-title {
+        font-size: 26px;
+    }
+
+    .testimonial-navigation {
+        margin-top: 20px;
+    }
+
+    .nav-arrow {
+        width: 40px;
+        height: 40px;
+    }
+
+    .testimonial-card {
+        max-width: 100%;
+        padding: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    .testimonial-indicators {
+        margin-bottom: 20px;
+    }
+
+    .indicator {
+        width: 10px;
+        height: 10px;
+    }
+
+    .quote-icon {
+        width: 45px;
+        height: 45px;
+        top: -15px;
+    }
+
+    .quote-icon svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .testimonial-text {
+        margin-bottom: 20px;
+    }
+
+    .author-name {
+        font-size: 16px;
+    }
+
+    .author-location {
+        font-size: 13px;
+    }
+
+    .testimonial-cards {
+        height: 420px;
+    }
+
+    .testimonial-card.next {
+        display: none;
+    }
+
+    .circle-1,
+    .circle-2 {
+        opacity: 0.5;
+    }
+
+    .decorative-dots {
+        opacity: 0.2;
+    }
+
+    .partners-section {
+        padding: 40px 0;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .section-subtitle {
+        font-size: 15px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .partners-header {
+        margin-bottom: 25px;
+    }
+
+    .partners-slider {
+        padding: 15px 0;
+        margin-bottom: 25px;
+    }
+
+    .partner-logo {
+        width: 100px;
+        height: 50px;
+        margin: 0 10px;
+    }
+
+    .partner-logo img {
+        max-height: 40px;
+        opacity: 0.8;
+    }
+
+    .partners-cta p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .partner-btn {
+        padding: 8px 20px;
+        font-size: 14px;
+        border-radius: 6px;
+    }
+
+    .partners-slider::before,
+    .partners-slider::after {
+        width: 40px;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-80%);
+        }
+    }
+
+    .natural-beauty-section {
+        padding: 50px 0;
+    }
+
+    .natural-beauty-section .container {
+        padding: 0 15px;
+    }
+
+    .beauty-header {
+        margin-bottom: 30px;
+    }
+
+    .beauty-header .section-subtitle {
+        font-size: 15px;
+        letter-spacing: 0.08em;
+    }
+
+    .beauty-header .section-title {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    .beauty-facts {
+        margin-bottom: 40px;
+    }
+
+    .fact-item {
+        flex: 0 0 100%;
+        margin: 8px 0;
+    }
+
+    .fact-icon {
+        width: 45px;
+        height: 45px;
+        padding: 8px;
+    }
+
+    .fact-icon svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    .fact-content h4 {
+        font-size: 20px;
+    }
+
+    .decoration-circle.circle-1 {
+        width: 150px;
+        height: 150px;
+        top: -50px;
+        left: -75px;
+    }
+
+    .decoration-circle.circle-2 {
+        width: 100px;
+        height: 100px;
+        bottom: -30px;
+        right: -50px;
+    }
+
+    .decoration-dots {
+        display: none;
+    }
+
+    .subscribe-section {
+        padding: 40px 0;
+    }
+
+    .subscribe-section .container {
+        padding: 0 15px;
+    }
+
+    .subscribe-content {
+        padding: 35px 20px;
+        border-top-left-radius: 40px;
+    }
+
+    .subscribe-header {
+        margin-bottom: 20px;
+    }
+
+    .subscribe-header .section-title {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .subscribe-header .section-description {
+        font-size: 13px;
+    }
+
+    .subscribe-form {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .input-group {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .subscribe-form input {
+        padding: 14px 14px 14px 38px;
+        font-size: 14px;
+    }
+
+    .subscribe-btn {
+        width: 100%;
+        padding: 14px 20px;
+    }
+
+
+    .circle-decoration {
+        width: 40px;
+        height: 40px;
+        left: 20px;
+        bottom: 5px;
+    }
+
+    .subscribe-content::before {
+        width: 20px;
+        height: 20px;
+        top: -8px;
+        left: 10%;
+    }
+}
+
+/* for menu-toggle */
+@media screen and (max-width: 578px) {
+    .nav-links {
+        position: fixed;
+        top: 60px;
+        right: -100%;
+        width: 80%;
+        max-width: 300px;
+        height: 10vh;
+        background-color: white;
+        box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+        padding: 80px 30px 30px;
+        z-index: 1000;
+        border-radius: 20px;
+        overflow-y: auto;
+        transition: right 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+    }
+
+    .menu-overlay.active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-links ul {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .nav-links ul li {
+        margin: 10px 0;
+        width: 100%;
+    }
+}
+
+/* for menu-toggle */
+
+@media screen and (max-width: 497px),
+(max-width: 380px) {
+    .nav-links {
+        display: none;
+        position: fixed;
+        flex-direction: column;
+        top: 60px;
+        right: 0;
+        width: 80%;
+        max-width: 250px;
+        height: 80vh;
+        background-color: white;
+        box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+        padding: 80px 30px 30px;
+        z-index: 1000;
+        overflow-y: auto;
+        transition: right 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+}
+
+/* Mobile Navigation for Very Small Screens */
+@media screen and (max-width: 480px) {
+    .hero-section {
+        padding: 80px 0;
+    }
+
+    .nav-logo h1 {
+        font-size: 22px;
+    }
+
+    .signup-btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .main-title {
+        font-size: 28px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    /* Media Queries for Services Section */
+    .services-section {
+        padding: 30px 0;
+    }
+
+    .main-title {
+        font-size: 24px;
+    }
+
+    .service {
+        padding: 15px;
+    }
+
+    .service-img {
+        width: 70px;
+        height: 70px;
+        padding: 12px;
+        margin-bottom: 15px;
+    }
+
+    .beauty-section {
+        padding: 40px 0;
+    }
+
+    .section-title {
+        font-size: 22px;
+    }
+
+    .gallery-item,
+    .gallery-item.large {
+        height: 180px;
+    }
+
+    .gallery-overlay h3 {
+        font-size: 16px;
+    }
+
+    .gallery-overlay p {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .explore-btn {
+        padding: 5px 12px;
+        font-size: 11px;
+    }
+
+    .beauty-cta {
+        padding: 20px;
+        background: linear-gradient(110deg, #eee3e3 60%, #FFF1DA 60%);
+
+    }
+
+    .cta-content h2 {
+        font-size: 20px;
+    }
+
+    .cta-content {
+        margin-bottom: 30px;
+    }
+
+    .cta-decoration {
+        height: 150px;
+    }
+
+    .floating-element.plane {
+        width: 50px;
+        height: 50px;
+    }
+
+    .floating-element.compass {
+        width: 45px;
+        height: 45px;
+    }
+
+    .floating-element.camera {
+        width: 40px;
+        height: 40px;
+    }
+
+    .booking-header .section-title {
+        font-size: 24px;
+    }
+
+    .booking-cta {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .primary-btn {
+        width: 100%;
+    }
+
+    .trip-card {
+        max-width: 280px;
+    }
+
+    .trip-features {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .booking-showcase {
+        display: none;
+    }
+
+    .testimonial-section {
+        padding: 40px 0;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .testimonial-card {
+        padding: 15px;
+    }
+
+    .testimonial-text {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .testimonial-image {
+        width: 80px;
+        height: 80px;
+        border-width: 3px;
+    }
+
+    .quote-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .quote-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .testimonial-cards {
+        height: 380px;
+    }
+
+    .testimonial-slider {
+        padding-bottom: 40px;
+    }
+
+    .nav-arrow {
+        width: 36px;
+        height: 36px;
+    }
+
+    .nav-arrow svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .partners-section {
+        padding: 30px 0;
+    }
+
+    .section-subtitle {
+        font-size: 14px;
+    }
+
+    .section-title {
+        font-size: 22px;
+    }
+
+    .partners-header {
+        margin-bottom: 20px;
+    }
+
+    .partner-logo {
+        width: 80px;
+        height: 45px;
+        margin: 0 8px;
+    }
+
+    .partner-logo img {
+        max-height: 35px;
+    }
+
+    .partners-cta p {
+        font-size: 14px;
+    }
+
+    .partner-btn {
+        padding: 8px 18px;
+        font-size: 13px;
+    }
+
+    .partners-slider::before,
+    .partners-slider::after {
+        width: 30px;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-90%);
+        }
+    }
+
+    .natural-beauty-section {
+        padding: 40px 0;
+    }
+
+    .beauty-header .section-subtitle {
+        font-size: 14px;
+    }
+
+    .beauty-header .section-title {
+        font-size: 24px;
+    }
+
+    .beauty-header .section-description {
+        font-size: 13px;
+    }
+
+    .fact-item {
+        padding: 12px;
+    }
+
+    .fact-icon {
+        width: 40px;
+        height: 40px;
+        padding: 7px;
+        margin-right: 10px;
+    }
+
+    .fact-icon svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .fact-content h4 {
+        font-size: 18px;
+        margin-bottom: 3px;
+    }
+
+    .fact-content p {
+        font-size: 12px;
+    }
+
+    .decoration-circle.circle-1,
+    .decoration-circle.circle-2 {
+        opacity: 0.3;
+    }
+
+
+
+
+
+    .subscribe-section {
+        padding: 30px 0;
+    }
+
+    .subscribe-content {
+        padding: 30px 15px;
+        border-top-left-radius: 30px;
+    }
+
+    .subscribe-header .section-title {
+        font-size: 20px;
+    }
+
+    .subscribe-header .section-description {
+        font-size: 12px;
+    }
+
+    .subscribe-form input {
+        padding: 12px 12px 12px 36px;
+        font-size: 13px;
+    }
+
+    .input-icon {
+        left: 10px;
+    }
+
+    .input-icon svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .subscribe-btn {
+        padding: 12px 15px;
+        font-size: 13px;
+    }
+
+    .circle-decoration {
+        width: 30px;
+        height: 30px;
+        left: 15px;
+    }
+
+    .subscribe-content::before {
+        width: 15px;
+        height: 15px;
+        top: -6px;
+        left: 8%;
+    }
+
+    .fact-item {
+        min-width: 100%;
+    }
+
+    .site-footer {
+        padding: 35px 0 15px;
+    }
+
+    .footer-logo h2 {
+        font-size: 26px;
+    }
+
+    .footer-tagline {
+        font-size: 12px;
+    }
+
+    .footer-links h3 {
+        font-size: 15px;
+    }
+
+    .footer-links a {
+        font-size: 12px;
+    }
+
+    .social-icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .social-icon svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .app-text {
+        font-size: 13px;
+    }
+
+    .app-button img {
+        height: 25px;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+
+    .footer-legal a {
+        font-size: 12px;
+    }
+
+    .footer-legal {
+        gap: 10px;
+    }
+
+    .shape-1,
+    .shape-2 {
+        display: none;
+    }
+}
