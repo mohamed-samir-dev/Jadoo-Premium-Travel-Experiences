@@ -11,7 +11,7 @@ Jadoo is a modern and responsive travel website designed to provide a seamless e
 
 ## 📸 Screenshot
 
-![Website Preview](<image/screencapture-127-0-0-1-5500-index-html-2025-04-01-15_44_18%20(1).png>)
+![Website Preview](<image/screencapture-mohamed-samir-dev-github-io-Jadoo-Premium-Travel-Experiences-2025-04-02-12_07_16.png>)
 
 ## 🚀 How to Run
 
